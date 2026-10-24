@@ -6,7 +6,7 @@
 
 Watch the complete walkthrough of the Food Delivery Analysis Tableau dashboard.
 
-[Click here to watch the dashboard video](screenshots/Screen%20Recording%202026-10-23%20174006.mp4)
+[Click here to watch the dashboard video](https://drive.google.com/file/d/18MtUkEj1cTj0RBFUeJ3f15xesbqVqf2W/view?usp=sharing)
 
 ## Dashboard Preview
 
