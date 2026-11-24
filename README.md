@@ -4,283 +4,273 @@
 
 ## Dashboard Video Demo
 
-Watch the complete walkthrough of the Food Delivery Analysis Tableau dashboard.
+Watch the complete screen recording of all three Food Delivery Analytics dashboards.
 
-[Click here to watch the dashboard video](https://drive.google.com/file/d/18MtUkEj1cTj0RBFUeJ3f15xesbqVqf2W/view?usp=sharing)
+[Click here to watch the Tableau dashboard screen recording](https://drive.google.com/file/d/1jnVnGenVMz6RGJ38SrPSHimgGsa8Fu1e/view?usp=sharing)
 
 ## Dashboard Preview
 
-### Executive Overview
+### 1. Executive Overview
 
-![Food Delivery Dashboard](screenshots/Dashboard.png)
+![Executive_Overview](screenshots/Executive_Overview.png)
+
+### 2. Restaurants & Menu
+
+![Restaurants_Menu](screenshots/Restaurants_Menu.png)
+
+### 3. Delivery & Payments
+
+![Delivery_Payments](screenshots/Delivery_Payments.png)
+
+---
 
 ## Project Overview
 
-Food Delivery Analytics is an interactive data analytics project developed using Tableau to analyze food delivery orders, customer demographics, cuisine preferences, restaurant performance, membership patterns, revenue distribution, and rider operations.
+Food Delivery Analytics is an interactive data analytics project developed using Tableau Desktop to analyze food delivery operations, restaurant performance, menu items, customer orders, delivery efficiency, and payment trends.
 
-The project uses an Excel dataset to explore business performance through interactive dashboards, KPI cards, charts, and data visualizations.
+The project uses a structured Excel dataset containing multiple related tables. Tableau relationships connect the tables to create interactive dashboards with KPI cards, charts, maps, and visualizations.
 
-The goal is to transform raw data into meaningful business insights, identify patterns in customer behavior, compare city-wise performance, and support data-driven decision-making.
+The project consists of three dashboards:
 
-This project is part of my Data Analytics portfolio and demonstrates practical skills in Tableau, Excel, data visualization, and business analytics.
+1. Executive Overview
+2. Restaurants & Menu
+3. Delivery & Payments
 
-> **Disclaimer:** This project is intended for educational, practice, and portfolio purposes. The dataset and analysis should not be interpreted as official data from any specific food delivery company.
-
-## Business Objectives
-
-- Analyze overall food delivery performance.
-- Understand customer age groups and demographics.
-- Compare customer distribution across cities.
-- Analyze membership distribution and customer preferences.
-- Identify popular cuisines based on order volume.
-- Compare revenue performance across cities.
-- Analyze rider distance and delivery operations.
-- Identify patterns in food ordering behavior.
-- Build interactive dashboards for business reporting.
-- Present business insights through meaningful visualizations.
+The main objective is to transform raw data into meaningful business insights, identify trends, evaluate operational performance, and support data-driven decision-making.
 
 ## Tools and Technologies
 
 | Tool | Purpose |
 |---|---|
-| Tableau Desktop | Dashboard creation and data visualization |
+| Tableau Desktop | Dashboard development and data visualization |
 | Microsoft Excel | Dataset storage and data inspection |
-| Tableau Public | Publishing and sharing interactive dashboards |
+| Tableau Relationships | Connecting multiple data tables |
 | GitHub | Project documentation and version control |
 
 ## Dataset Description
 
-The project uses `Food_Delivery_Analytics.xlsx`, an Excel workbook containing the data used to build the Food Delivery Analytics dashboard.
+The project uses an Excel workbook containing 11 sheets with related food delivery information.
 
-The dataset supports analysis of customer demographics, cuisine preferences, membership distribution, city-wise revenue, and rider distance.
-
-| Analysis Area | Description |
+| Sheet Name | Description |
 |---|---|
-| Customer Demographics | Customer age groups and demographic patterns |
-| City Analysis | Customer distribution across different cities |
-| Membership Analysis | Distribution of customers by membership category |
-| Cuisine Analysis | Order distribution across different cuisines |
-| Revenue Analysis | Revenue comparison across cities |
-| Rider Analysis | Distance covered by riders |
-| Dashboard Summary | Consolidated view of key business metrics |
+| Orders | Order details, dates, customers, restaurants, and amounts |
+| Customers | Customer information |
+| Restaurants | Restaurant details, locations, and ratings |
+| Calendar | Date information |
+| Order_Items | Individual items included in orders |
+| Menu_Items | Menu item names, categories, and prices |
+| Deliveries | Delivery details and delivery status |
+| Delivery_Partners | Delivery partner information |
+| Payments | Payment methods, amounts, and statuses |
+| Relationships_Guide | Reference for connecting tables |
+| Data_Dictionary | Description of dataset fields |
 
-The exact dataset fields, record counts, and calculations should be verified against the Excel workbook before documenting specific figures.
+## Dashboard 1: Executive Overview
 
-## Dashboard Pages
+Provides a consolidated view of overall food delivery business performance.
 
-The following dashboard views are included in the project.
+### Key Performance Indicators
 
-### 1. Executive Overview
+- Total Orders
+- Total Revenue
+- Total Customers
+- Average Order Value
+- Average Restaurant Rating
 
-Provides a consolidated view of the food delivery dataset through an interactive Tableau dashboard.
+### Charts and Visualizations
 
-The overview helps users understand the major business metrics and explore patterns across customer demographics, cuisine preferences, revenue, membership, and rider operations.
+- Monthly Revenue Trend
+- Top 10 Restaurants by Revenue
+- Order Status Distribution
+- Revenue by City
+- Revenue by Cuisine
 
-### 2. Age Group Analysis
+### Dashboard Screenshot
 
-Analyzes customer distribution across different age groups.
+![Executive_Overview](screenshots/Executive_Overview.png)
 
-The analysis helps identify:
+### Business Insights
 
-- Customer count by age group.
-- Distribution of customers across demographic categories.
-- Age-group patterns in the customer base.
-- Differences in customer distribution.
+- Monitor overall order and revenue performance.
+- Identify monthly revenue trends.
+- Compare restaurant revenue contributions.
+- Understand revenue distribution across cities and cuisines.
+- Evaluate overall restaurant ratings.
 
-### 3. City-wise Age Analysis
+## Dashboard 2: Restaurants & Menu
 
-Explores customer age distribution across different cities.
+Focuses on restaurant performance, cuisine categories, menu items, and pricing.
 
-The analysis includes:
+### Key Performance Indicators
 
-- Customer count by city.
-- Age-group distribution across cities.
-- Comparison of customer demographics.
-- City-wise customer patterns.
+- Total Restaurants
+- Total Menu Items
+- Average Menu Price
 
-### 4. Membership Analysis
+### Charts and Visualizations
 
-Examines the distribution of customers across membership categories.
+- Top 10 Restaurants by Rating
+- Restaurants by Cuisine
+- Menu Items by Category
+- Average Menu Price by Cuisine
+- Restaurant Rating Distribution
 
-The dashboard explores:
+### Dashboard Screenshot
 
-- Membership count.
-- Distribution by membership type.
-- Comparison of membership categories.
-- Customer membership patterns.
+![Restaurants_Menu](screenshots/Restaurants_Menu.png)
 
-### 5. Cuisine Analysis
+### Business Insights
 
-Analyzes food ordering preferences across different cuisine categories.
+- Identify highly rated restaurants.
+- Understand restaurant distribution across cuisines.
+- Analyze menu item categories.
+- Compare average menu prices across cuisines.
+- Understand restaurant rating distribution.
 
-The dashboard focuses on:
+## Dashboard 3: Delivery & Payments
 
-- Orders by cuisine.
-- Popular cuisine categories.
-- Comparison of order volumes.
-- Customer food preferences.
+Analyzes delivery operations, delivery partner performance, and payment activity.
 
-### 6. Revenue by City
+### Key Performance Indicators
 
-Compares revenue performance across different cities.
+- Total Deliveries
+- Average Delivery Time
+- Total Payment Amount
+- Successful Payments
 
-The analysis includes:
+### Charts and Visualizations
 
-- Revenue generated by city.
-- Comparison of city-wise revenue.
-- High-performing cities.
-- Revenue distribution across locations.
+- Delivery Status Distribution
+- Average Delivery Time by City
+- Delivery Partner Performance
+- Payment Method Distribution
+- Monthly Payment Status Trend
 
-### 7. Rider Distance Analysis
+### Dashboard Screenshot
 
-Explores the distance covered by riders as part of food delivery operations.
+![Delivery_Payments](screenshots/Delivery_Payments.png)
 
-The analysis focuses on:
+### Business Insights
 
-- Distance covered by riders.
-- Comparison of rider distances.
-- Distribution of delivery distances.
-- Operational patterns in delivery activity.
+- Understand delivery status distribution.
+- Compare average delivery times across cities.
+- Evaluate delivery partner performance.
+- Analyze customer payment method preferences.
+- Monitor successful, failed, and pending payment trends.
+
+## Data Relationships
+
+The following relationships were established in Tableau:
+
+| Tables | Relationship Field |
+|---|---|
+| Orders and Customers | Customer_ID |
+| Orders and Restaurants | Restaurant_ID |
+| Orders and Calendar | Order_Date and Date |
+| Orders and Order_Items | Order_ID |
+| Order_Items and Menu_Items | Menu_Item_ID |
+| Orders and Deliveries | Order_ID |
+| Deliveries and Delivery_Partners | Delivery_Partner_ID |
+| Orders and Payments | Order_ID |
+
+These relationships allow analysis across different areas of the food delivery business.
+
+## Key Business Questions
+
+- How many orders and customers are recorded?
+- How does revenue change month by month?
+- Which restaurants generate the highest revenue?
+- Which cities and cuisines contribute to revenue?
+- Which restaurants have the highest ratings?
+- How are restaurants distributed across cuisine categories?
+- Which menu categories contain the most items?
+- Which cuisines have higher average menu prices?
+- What is the distribution of delivery statuses?
+- Which cities have higher average delivery times?
+- How does delivery partner performance compare?
+- Which payment methods are most commonly used?
+- How do payment statuses change over time?
 
 ## Key Performance Indicators
 
-The following KPIs can be used where the required fields are available in the dataset:
-
-- **Total Customers:** Distinct count of customer IDs.
-- **Total Orders:** Count of unique order IDs.
-- **Total Revenue:** Sum of the relevant revenue field.
-- **Total Cities:** Distinct count of cities.
-- **Total Memberships:** Count of customers belonging to membership categories.
-- **Most Popular Cuisine:** Cuisine with the highest order count.
-- **Top Revenue City:** City generating the highest revenue.
-- **Average Rider Distance:** Average distance covered by riders.
-
-KPI definitions should be verified against the actual Excel data and Tableau calculations.
-
-## Key Business Insights
-
-The dashboard can be used to investigate important business questions, including:
-
-- Which age group represents the largest customer segment?
-- Which cities have the highest customer counts?
-- Which membership category has the most customers?
-- Which cuisine receives the highest number of orders?
-- Which cities generate the highest revenue?
-- How does revenue vary across cities?
-- What patterns can be observed in rider distances?
-- Which customer segments could be explored for targeted marketing?
-
-Add three to five verified findings using actual dashboard values. Explain briefly how each finding could help a business improve customer engagement, marketing, revenue generation, or delivery operations.
-
-## Dashboard Screenshots
-
-### Executive Overview
-
-![Executive Overview Dashboard](screenshots/Dashboard.png)
-
-### Age Group Analysis
-
-![Age Group Analysis](screenshots/Age%20Group.png)
-
-### City-wise Age Analysis
-
-![City-wise Age Count](screenshots/City%20wise%20Age%20Count.png)
-
-### Membership Analysis
-
-![Membership Analysis](screenshots/Membership%20Count.png)
-
-### Cuisine Analysis
-
-![Orders by Cuisine](screenshots/Orders%20by%20Cuisine.png)
-
-### Revenue by City
-
-![Revenue by City](screenshots/Revenue%20by%20City.png)
-
-### Rider Distance Analysis
-
-![Distance Covered by Rider](screenshots/Distance%20covered%20by%20Rider.png)
-
-## Live Interactive Dashboard
-
-The Tableau Public link can be added here after publishing the workbook.
-
-**Tableau Public:** [View Interactive Dashboard](#)
+| KPI | Description |
+|---|---|
+| Total Orders | Distinct count of order IDs |
+| Total Revenue | Sum of order amounts |
+| Total Customers | Distinct count of customer IDs |
+| Average Order Value | Average order amount |
+| Average Restaurant Rating | Average restaurant rating |
+| Total Restaurants | Distinct count of restaurant IDs |
+| Total Menu Items | Distinct count of menu item IDs |
+| Average Menu Price | Average menu item price |
+| Total Deliveries | Distinct count of delivery IDs |
+| Average Delivery Time | Average delivery time in minutes |
+| Total Payment Amount | Sum of payment amounts |
+| Successful Payments | Count of successful payment transactions |
 
 ## Repository Structure
 
 ```text
-Food-Delivery-Analysis-/
+Food-Delivery-Analysis/
 │
 ├── README.md
 │
 ├── screenshots/
-│   ├── Age Group.png
-│   ├── City wise Age Count.png
-│   ├── Dashboard.png
-│   ├── Distance covered by Rider.png
-│   ├── Membership Count.png
-│   ├── Orders by Cuisine.png
-│   ├── Revenue by City.png
-│   └── Screen Recording 2026-10-23 174006.mp4
+│   ├── Executive_Overview.png
+│   ├── Restaurants_Menu.png
+│   ├── Delivery_Payments.png
+│   ├── Delivery Partner Performance.png
+│   ├── Menu Items by Category.png
+│   ├── Monthly Revenue Trend.png
+│   ├── Payment Status Trend.png
+│   └── Other chart screenshots
 │
 ├── workbooks/
-│   ├── Food Order Analysis.twb
+│   ├── Tableau Workbook
 │   └── Food_Delivery_Analytics.xlsx
 │
 └── data/
 ```
 
-## Data Relationships
-
-The project uses the Excel dataset as the source for Tableau visualizations.
-
-If the workbook contains multiple related tables, establish relationships using the appropriate common identifiers, such as customer ID, order ID, restaurant ID, or city ID, where available.
-
-Verify the actual worksheet names and column names in `Food_Delivery_Analytics.xlsx` before documenting specific relationships.
-
 ## How to Explore the Project
 
-1. Clone or download the GitHub repository.
+1. Clone or download this GitHub repository.
 2. Open the `workbooks` folder.
-3. Open `Food Order Analysis.twb` using Tableau Desktop.
-4. Reconnect the Excel data source if necessary.
-5. Verify the data source and calculated fields.
-6. Explore the individual worksheets.
-7. Open the dashboard and interact with available filters.
-8. Review age groups, city-wise customer counts, membership, cuisine, revenue, and rider distance.
-9. Watch the dashboard walkthrough using the video link in this README.
-10. Visit the Tableau Public link once the dashboard has been published.
+3. Open the Tableau workbook using Tableau Desktop.
+4. Explore all three dashboard pages.
+5. Interact with the available charts and filters.
+6. Review restaurant performance, menu analysis, delivery operations, and payment trends.
+7. Refer to the Excel dataset to understand the source tables.
+8. Watch the complete dashboard walkthrough using the video link provided above.
 
 ## Skills Demonstrated
 
+- Tableau Desktop
+- Dashboard Development
 - Data Visualization
-- Tableau Dashboard Development
 - Microsoft Excel
-- Exploratory Data Analysis
+- Data Relationships
 - KPI Design
 - Business Analytics
-- Customer Demographic Analysis
-- City-wise Analysis
-- Membership Analysis
-- Cuisine and Order Analysis
 - Revenue Analysis
+- Restaurant Performance Analysis
 - Delivery Operations Analysis
+- Payment Analysis
 - Interactive Dashboard Design
 - Data Storytelling
-- Business Problem-Solving
 
-## About the Project
+## Project Conclusion
 
-This project is part of my Data Analytics portfolio and demonstrates my ability to analyze structured datasets, develop interactive Tableau dashboards, compare business metrics, and communicate findings through data visualization.
+This project demonstrates the use of Tableau and Excel to analyze food delivery business operations through interactive dashboards.
 
-The project showcases practical application of Tableau and Excel to explore customer behavior, cuisine preferences, city-wise revenue, membership patterns, and rider operations.
+It provides insights into revenue performance, restaurant ratings, menu pricing, delivery efficiency, delivery partner performance, and payment trends.
+
+The project helped develop practical skills in data analysis, data visualization, dashboard development, and business intelligence.
 
 ## Disclaimer
 
-This project is created for educational, practice, and portfolio purposes. The dataset is intended for analytical demonstration and should not be considered official operational or financial information from any specific food delivery company.
+This project is created for educational, practice, and portfolio purposes. The dataset is intended for analytical demonstration and does not represent official operational or financial information from any specific food delivery company.
 
 ---
 
-*Created as a Data Analytics portfolio project using Tableau and Excel.*
+*Created as a Data Analytics portfolio project using Tableau Desktop and Microsoft Excel.*
